@@ -12,11 +12,7 @@ import androidx.annotation.Nullable;
 import androidx.core.content.ContextCompat;
 import androidx.localbroadcastmanager.content.LocalBroadcastManager;
 
-/**
- * Servis koji periodicno (jednom u minutu) proverava
- * da li korisnik ima dozvolu za kameru.
- * Ako dozvola postoji, obavestavuje fragment putem LocalBroadcast-a.
- */
+
 public class ProvjerKamereServis extends Service {
 
     private static final long INTERVAL_PROVERE = 60_000L;
@@ -36,7 +32,7 @@ public class ProvjerKamereServis extends Service {
             }
         };
 
-        // Prva provera odmah pri pokretanju
+        
         periodicniHandler.post(zadatakProvere);
 
         return START_STICKY;
