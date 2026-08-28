@@ -1,0 +1,11 @@
+﻿<resources>
+    <style name="Theme.Recepti" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">@color/plava_tamna</item>
+        <item name="colorPrimaryVariant">@color/plava_akcent</item>
+        <item name="colorOnPrimary">@color/bijela</item>
+        <item name="colorSecondary">@color/narandzasta</item>
+        <item name="colorSecondaryVariant">@color/narandzasta</item>
+        <item name="colorOnSecondary">@color/bijela</item>
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+    </style>
+</resources>

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="plava_tamna">#FF1565C0</color>
+    <color name="plava_svetla">#FF42A5F5</color>
+    <color name="plava_akcent">#FF0288D1</color>
+    <color name="narandzasta">#FFFF5722</color>
+    <color name="tamnosiva">#FF757575</color>
+    <color name="bijela">#FFFFFFFF</color>
+    <color name="crna">#FF000000</color>
+</resources>

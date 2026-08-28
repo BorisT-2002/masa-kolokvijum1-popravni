@@ -1,0 +1,11 @@
+﻿<resources>
+    <string name="app_name">kolokvijum1_masa</string>
+    <string name="meni_recepti">Recipe</string>
+    <string name="dugme_dodaj">Dodaj</string>
+    <string name="dugme_potvrdi">Potvrdi</string>
+    <string name="dugme_odustani">Odustani</string>
+    <string name="hint_naziv">Naziv recepta</string>
+    <string name="hint_trajanje">Vreme pripreme (minuti)</string>
+    <string name="labela_omiljeno">Omiljeno</string>
+    <string name="opis_slike">Slika hrane</string>
+</resources>

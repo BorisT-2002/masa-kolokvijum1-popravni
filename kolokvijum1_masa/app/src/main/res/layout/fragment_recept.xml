@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/lista_recepata"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@android:color/white"
+        android:clipToPadding="false"
+        android:padding="4dp" />
+
+    <!-- Inicijalno nevidljiv ImageView koji se prikazuje kada je kamera dozvoljena -->
+    <ImageView
+        android:id="@+id/slika_hrane"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="8dp"
+        android:src="@drawable/ic_hrana"
+        android:visibility="gone"
+        android:contentDescription="@string/opis_slike" />
+
+    <Button
+        android:id="@+id/dugme_dodaj"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/dugme_dodaj" />
+
+</LinearLayout>

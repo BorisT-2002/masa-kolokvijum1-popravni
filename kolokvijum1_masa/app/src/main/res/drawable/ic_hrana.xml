@@ -1,0 +1,45 @@
+﻿<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="100dp"
+    android:height="100dp"
+    android:viewportWidth="100"
+    android:viewportHeight="100">
+
+    <!-- Lonac -->
+    <path
+        android:fillColor="#FF78909C"
+        android:pathData="M20,40 L80,40 L75,80 L25,80 Z" />
+
+    <!-- Poklopac lonca -->
+    <path
+        android:fillColor="#FF546E7A"
+        android:pathData="M15,35 Q50,25 85,35 L80,40 L20,40 Z" />
+
+    <!-- Para -->
+    <path
+        android:fillColor="#FFFF5722"
+        android:strokeColor="#FFFF5722"
+        android:strokeWidth="3"
+        android:pathData="M35,30 Q38,20 35,15"
+        android:fillAlpha="0" />
+    <path
+        android:fillColor="#FFFF5722"
+        android:strokeColor="#FFFF5722"
+        android:strokeWidth="3"
+        android:pathData="M50,28 Q53,18 50,13"
+        android:fillAlpha="0" />
+    <path
+        android:fillColor="#FFFF5722"
+        android:strokeColor="#FFFF5722"
+        android:strokeWidth="3"
+        android:pathData="M65,30 Q68,20 65,15"
+        android:fillAlpha="0" />
+
+    <!-- Drska -->
+    <path
+        android:fillColor="#FF37474F"
+        android:pathData="M10,38 L20,38 L20,44 L10,44 Z" />
+    <path
+        android:fillColor="#FF37474F"
+        android:pathData="M80,38 L90,38 L90,44 L80,44 Z" />
+
+</vector>
