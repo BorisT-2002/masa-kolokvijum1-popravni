@@ -14,7 +14,7 @@
         android:clipToPadding="false"
         android:padding="4dp" />
 
-    <!-- Inicijalno nevidljiv ImageView koji se prikazuje kada je kamera dozvoljena -->
+    
     <ImageView
         android:id="@+id/slika_hrane"
         android:layout_width="100dp"
