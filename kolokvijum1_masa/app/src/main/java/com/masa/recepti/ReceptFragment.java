@@ -94,14 +94,14 @@ public class ReceptFragment extends Fragment {
         Button btnPotvrdi = formaView.findViewById(R.id.btn_potvrdi);
         Button btnOdustani = formaView.findViewById(R.id.btn_odustani);
 
-        // Klik na odustajanje zatvara formu
+        
         btnOdustani.setOnClickListener(view -> dijalog.dismiss());
 
         btnPotvrdi.setOnClickListener(view -> {
             String naziv = unosNaziv.getText().toString().trim();
             String trajanjeStr = unosTrajanje.getText().toString().trim();
 
-            // Provera da polja nisu prazna
+           
             if (TextUtils.isEmpty(naziv) || TextUtils.isEmpty(trajanjeStr)) {
                 Toast.makeText(requireContext(),
                         "Sva polja su obavezna!", Toast.LENGTH_SHORT).show();
@@ -111,11 +111,11 @@ public class ReceptFragment extends Fragment {
             int trajanje = Integer.parseInt(trajanjeStr);
             boolean jeOmiljeno = cbOmiljeno.isChecked();
 
-            // Dodaj u listu
+            
             Recept noviRecept = new Recept(naziv, trajanje, jeOmiljeno);
             receptAdapter.dodajRecept(noviRecept);
 
-            // Posalji broadcast ka PrimljenReceptReceiver-u
+            
             Intent broadcastIntent = new Intent(AKCIJA_NOVI_RECEPT);
             broadcastIntent.setPackage(requireContext().getPackageName());
             broadcastIntent.putExtra(EXTRA_TRAJANJE, trajanje);
