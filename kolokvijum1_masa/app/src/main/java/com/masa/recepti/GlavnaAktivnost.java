@@ -48,7 +48,7 @@ public class GlavnaAktivnost extends AppCompatActivity {
                                            @NonNull String[] permissions,
                                            @NonNull int[] grantResults) {
         super.onRequestPermissionsResult(requestCode, permissions, grantResults);
-        // Servis automatski detektuje promenu dozvole
+       
     }
 
     @Override
