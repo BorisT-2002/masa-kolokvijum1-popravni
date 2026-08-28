@@ -6,10 +6,7 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.widget.Toast;
 
-/**
- * Receiver koji belezi svaki dodati recept i prati ukupno vreme kuvanja.
- * Kada ukupno vreme predje 120 minuta, korisniku se prikazuje upozorenje.
- */
+
 public class PrimljenReceptReceiver extends BroadcastReceiver {
 
     private static final String IME_PREFERENCIJA = "EvidencijaKuvanja";
